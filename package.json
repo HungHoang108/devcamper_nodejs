@@ -1,0 +1,20 @@
+{
+  "name": "devcamper",
+  "version": "1.0.0",
+  "description": "Devcamper API",
+  "main": "server.js",
+  "scripts": {
+    "start": "set NODE_ENV=production && node server",
+    "dev": "nodemon server"
+  },
+  "author": "Hung hoan´Hoang\u001b[D\u001b[1;5D\u001b[D\u001b[D\u001b\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "env": "^0.0.2",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
