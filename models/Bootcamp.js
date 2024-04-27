@@ -1,4 +1,5 @@
 const mongoose = require("mongoose");
+const { type } = require("os");
 
 const BootcampSchema = new mongoose.Schema({
   name: {
@@ -85,6 +86,9 @@ const BootcampSchema = new mongoose.Schema({
   createdAt: {
     type: Date,
     default: Date.now,
+  },
+  averageCost: {
+    type: Number,
   },
 });
 
